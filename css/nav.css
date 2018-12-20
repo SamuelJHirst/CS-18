@@ -1,0 +1,53 @@
+#navigation ul li * {
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	transition: background-color 200ms, color 200ms ease;
+}
+
+#navigation ul li:not(.active):hover * {
+	color: rgba(255, 255, 255, 0);
+	background-color: rgba(0, 0, 0, 0);
+}
+
+#navigation ul li.active * {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#navigation ul li:nth-of-type(1) {
+	background-image: url("../img/home.jpg")
+}
+
+#navigation ul li:nth-of-type(2) {
+	background-image: url("../img/pyramid.jpg")
+}
+
+#navigation ul li:nth-of-type(3) {
+	background-image: url("../img/wall.jpg")
+}
+
+#navigation ul li:nth-of-type(4) {
+	background-image: url("../img/petra.jpg")
+}
+
+#navigation ul li:nth-of-type(5) {
+	background-image: url("../img/colosseum.jpg")
+}
+
+#navigation ul li:nth-of-type(6) {
+	background-image: url("../img/chichen.jpg")
+}
+
+#navigation ul li:nth-of-type(7) {
+	background-image: url("../img/machu.jpg")
+}
+
+#navigation ul li:nth-of-type(8) {
+	background-image: url("../img/taj.jpeg")
+}
+
+#navigation ul li:nth-of-type(9) {
+	background-image: url("../img/christ.jpg")
+}

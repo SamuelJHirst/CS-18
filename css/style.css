@@ -1,0 +1,146 @@
+body {
+	margin: 50px 150px;
+	background-color: #3D3D5C;
+}
+
+.sub-container {
+	display: block;
+	padding: 20px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	box-shadow: 2px 2px 20px #000000;
+}
+
+#header {
+	font-family: "Hobo Std";
+	text-align: center;
+}
+
+#body {
+	font-family: "Segoe UI";
+	height: calc(100% - 300px);
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#navigation {
+	height: 100%;
+	width: 300px;
+	float: left;
+}
+
+#navigation h3 {
+	text-align: center;
+}
+
+#content {
+	height: 100%;
+	width: calc(100% - 400px);
+	float: right;
+	margin-left: 20px;
+}
+
+#footer {
+	font-family: "Consolas";
+	margin-top: 20px;
+}
+
+#footer .sub-container {
+	height: 19px;
+}
+
+table {
+	position: relative;
+	left: -3px;
+}
+
+td {
+	padding-right: 5px;
+}
+
+.float-image {
+	float: right;
+	margin-left: 10px;
+}
+
+.input-box {
+	width: calc(50% - 4px);
+	height: 20px;
+}
+
+textarea {
+	width: calc(100% - 4px);
+	margin: 3px 0;
+	font-family: Arial;
+}
+
+.submit {
+	position: relative;
+	top: 10px;
+	border-radius: 4px;
+	padding: 5px 10px;
+	background-color: #666699;
+	color: #FFFFFF;
+}
+
+.submit {
+	position: relative;
+	top: 10px;
+	border-radius: 4px;
+	padding: 5px 10px;
+	background-color: #666699;
+	color: #FFFFFF;
+	text-decoration: none;
+	cursor: pointer;
+	transition: background-color 200ms ease;
+}
+
+.submit:hover {
+	background-color: #52527A;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	position: relative;
+	left: 6px;
+}
+
+#navigation ul li {
+	display: inline-table;
+	width: 141px;
+	height: calc(20% - 24px);
+	margin: 2px 0;
+	border-radius: 10px;
+	background-position: center center;
+}
+
+#navigation ul li:nth-of-type(1) {
+	width: 286px;
+}
+
+#navigation ul li:nth-of-type(8) {
+	position: relative;
+	top: -10px;
+}
+
+#navigation ul li * {
+	display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	padding: 5px;
+}
+
+#invalid-first-name, #invalid-last-name {
+	color: red;
+	width: calc(50% - 4px);
+	display: none;
+	margin: 0;
+}
+
+#copyright {
+	position: absolute;
+	right: 170px;
+}
